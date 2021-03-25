@@ -1,2 +1,2 @@
-# homeassistant-addon
-Home Assistant Addon development
+# homeassistant-addons
+Home Assistant addons
