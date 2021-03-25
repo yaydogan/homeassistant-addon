@@ -11,7 +11,7 @@ This addon is mainly built on jdeath's repository (https://github.com/jdeath/RTL
 
    - Currently it will read only "scm" meters. Will add support for scanning other protocols. 
    - Automatically create sensors upon startup based on meters configured
-   
+
 ## Usage
 
  1. Install the addon:
@@ -28,12 +28,12 @@ This addon is mainly built on jdeath's repository (https://github.com/jdeath/RTL
 ```
 sensor:
   - platform: mqtt
-    state_topic: "readings/4411782/meter_reading"
+    state_topic: "readings/id1/meter_reading"
     name: "Power Meter"
     unit_of_measurement: kWh
 
   - platform: mqtt
-    state_topic: "readings/11032620/meter_reading"
+    state_topic: "readings/id2/meter_reading"
     name: "Gas Meter"
     unit_of_measurement: M3
 ```
