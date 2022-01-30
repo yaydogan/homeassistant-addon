@@ -4,7 +4,7 @@
     "slug": "rtlamr",
     "description": "Receive AMR readings from utility meters using RTL2832U based DVB-T USB tuners",
     "url": "https://github.com/yaydogan/homeassistant-addon/tree/main/rtlamr",
-    "arch": ["armhf", "armv7", "aarch64"],
+    "arch": ["armhf", "armv7", "aarch64", "x86_64"],
     "image": "yaydogan/rtlamr-{arch}",
     "startup": "application",
     "boot": "auto",
