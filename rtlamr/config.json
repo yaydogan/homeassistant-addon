@@ -1,6 +1,6 @@
 {
     "name": "Smart Meter Monitor",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "slug": "rtlamr",
     "description": "Receive AMR readings from utility meters using RTL2832U based DVB-T USB tuners",
     "url": "https://github.com/yaydogan/homeassistant-addon/tree/main/rtlamr",
@@ -18,9 +18,9 @@
         "mqtt_password": "",
         "poll_interval" : 10,
         "devices": [
-            {"name": "Power Meter", "protocol": "scm", "id": "", "unit" : "kWh", "multiplier": 0.01},
-            {"name": "Gas Meter", "protocol": "scm", "id": "", "unit" : "ft3", "multiplier": 1},
-            {"name": "Water Meter", "protocol": "r900bcd", "id": "", "unit": "ft3", "multiplier": 1}
+            {"name": "Power Meter", "protocol": "scm", "id": ""},
+            {"name": "Gas Meter", "protocol": "scm", "id": ""},
+            {"name": "Water Meter", "protocol": "r900", "id": ""}
         ]
         },
     "schema": {
@@ -30,7 +30,7 @@
         "mqtt_password": "str",
         "poll_interval" : "int(5,30)",
         "devices": [
-            {"name": "str", "protocol": "str", "id": "str", "unit": "str", "multiplier": "float"}
+            {"name": "str", "protocol": "str", "id": "str"}
         ]
       }
   }
