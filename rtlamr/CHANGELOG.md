@@ -5,3 +5,7 @@
 ## [0.1.1] - 2020-04-11
 
 - Bugfix: Handle rtl_tcp connection issues
+
+## [0.1.2] - 2021-02-03
+
+- Bugfix: Support for multiple protocol scanning 
